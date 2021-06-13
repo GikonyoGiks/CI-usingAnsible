@@ -1,5 +1,4 @@
 [all]
 172.31.28.25
 
-[all:vars]
-ansible_sudo_pass=root
+
