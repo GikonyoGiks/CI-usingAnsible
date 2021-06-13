@@ -46,7 +46,7 @@ pipeline {
                  
              
                
-               sh "ansible-playbook main.yml --key-file ~/.ssh/id_rsa"
+               sh "ansible-playbook main.yml  -- user ubuntu --key-file /home/ubuntu/.ssh"
 
                
             
