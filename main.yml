@@ -2,7 +2,7 @@
 - hosts: localhost
   become: true
   become_user: jenkins
-  #become_method: sudo
+  become_method: sudo
   gather_facts: false
   tasks:
     - include_role:
