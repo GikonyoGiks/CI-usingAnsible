@@ -46,7 +46,7 @@ pipeline {
                  
              
                
-               sh "ansible-playbook main.yml  --user ubuntu --key-file /home/ubuntu/.ssh"
+               sh "ansible-playbook main.yml  --ask-become-pass -b --become-user=root -m shell -a 'root'"
 
                
             
