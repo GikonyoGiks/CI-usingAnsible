@@ -1,5 +1,5 @@
         
-- hosts: 172.31.8.69
+- hosts: all
   become: true
   become_user: root
   #become_method: sudo
