@@ -3,7 +3,7 @@
   apt: name=openjdk-8-jre state=present
 
 - name: add group "tomcat"
-  group: name={{tomcat_group}}
+  group: name=tomcat
 
 - name: add user "tomcat"
   user: name={{tomcat_user}} group={{tomcat_group}} home=/usr/share/tomcat createhome=no
