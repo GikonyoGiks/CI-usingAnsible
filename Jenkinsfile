@@ -46,7 +46,7 @@ pipeline {
                  
              
                
-               sh "ansible-playbook main.yml --extra-vars "ansible_user=root ansible_password=root" -vvvvv "
+               sh "ansible-playbook main.yml --extra-vars 'ansible_user=root ansible_password=root' -vvvvv "
 
                
             
