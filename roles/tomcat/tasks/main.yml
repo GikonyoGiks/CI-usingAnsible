@@ -4,6 +4,7 @@
 
 - name: add group "tomcat"
   group: name=tomcat
+  become_user: root
 
 - name: add user "tomcat"
   user: name={{tomcat_user}} group={{tomcat_group}} home=/usr/share/tomcat createhome=no
