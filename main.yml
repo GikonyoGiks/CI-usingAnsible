@@ -1,5 +1,5 @@
         
-- hosts: localhost
+- hosts: 172.31.8.69
   become: true
   become_user: root
   #become_method: sudo
