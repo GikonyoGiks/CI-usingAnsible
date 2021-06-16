@@ -46,7 +46,7 @@ pipeline {
                  
              
                
-               sh "ansible-playbook main.yml --user jenkins -vvvv"
+               sh "ansible-playbook main.yml --user ubuntu -vvvv"
 
                
             
